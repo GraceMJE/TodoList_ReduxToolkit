@@ -1,0 +1,45 @@
+/* TodoList.module.css */
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    width: 350px;
+    margin-bottom: 9px;
+}
+
+.checkbox {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.todolist {
+    flex: 1;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.deleteBtn {
+    background: none;
+    border: none;
+    color: #ff4d4d;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deleteBtn:hover {
+    color: #ff1a1a;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}

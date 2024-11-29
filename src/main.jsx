@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import reportWebVitals from './reportWebVitals';
+// import reportWebVitals from './reportWebVitals';
 import store from './redux/store.jsx'
 import { Provider } from 'react-redux';
 import './index.css'
@@ -13,3 +13,5 @@ root.render(
     <App />
   </Provider>
 );
+
+// reportWebVitals();

@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { remove, complete } from '../redux/todoSlice'
 import s from './TodoList.moduel.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { FaTrashCan } from 'react-icons/fa6'
+import { faTrashCan } from 'react-icons/fa6'
 
 export default function TodoList() {
     const todolist = useSelector(state => state.todo)
